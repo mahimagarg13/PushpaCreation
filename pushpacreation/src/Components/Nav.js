@@ -19,15 +19,15 @@ function Nav() {
           <Link to="/#" onClick={navBarShow} ><span style={{color:"#dd9933"}}>Home</span></Link>
           <Link to="/aboutus/#" onClick={navBarShow}>About Us</Link>
           {/* <div className="dropdown"> */}
-              <Link to="/services/#" className="dropbtn" onClick={navBarShow} >Services</Link>
+              <Link to="/products/#" className="dropbtn" onClick={navBarShow} >Products</Link>
             {/* <div className="dropdown-content"> */}
               {/* <Link to="">Service 1</Link> */}
               {/* <Link to="">Service 2</Link> */}
             {/* </div></div> */}
-          <Link to="/gallery/#" onClick={navBarShow} >Gallery</Link>
+          {/* <Link to="/gallery/#" onClick={navBarShow} >Gallery</Link> */}
           {/* <Link to="/designer/#" onClick={navBarShow} >Designer</Link> */}
           <Link to="/contactus/#" onClick={navBarShow} >Contact Us</Link>
-          <a href="tel:+91-123654789" onClick={navBarShow} className="btnn" rel="noopener noreferrer" target="_blank"><FcPhone style={{backgroudcolor:"rgb(126, 214, 248)", fontSize:"larger"}} />+91-7999794045</a>
+          <a href="tel:+91-1236547789" onClick={navBarShow} className="btnn" rel="noopener noreferrer" target="_blank"><FcPhone style={{backgroudcolor:"rgb(126, 214, 248)", fontSize:"larger"}} />+91-1254445555</a>
         </div>
         <button onClick={() => setShowLinks(!showLinks)} className="margin-right">
           <TiThMenu />

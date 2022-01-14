@@ -192,6 +192,12 @@ background-color: green;
       padding: 6px 2px;
       border-bottom: 1px solid gray;
 }
+.btnn {
+  /* border: 2px solid #dd9933; */
+  padding: 10px 15px !important;
+  border-radius: 8px;
+  margin-left: 5px;
+}
 }
 .dropbtn {
   padding: 16px;
