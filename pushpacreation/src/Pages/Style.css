@@ -1,0 +1,622 @@
+*{
+    /* font-family: 'Alice', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+}
+    .divider{
+        height: 40px;
+        text-align: center;
+    }
+.footer-bg{
+    background-image: url(https://www.craftmaestros.com/media/athlete2/default/CM-Footer2_1.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+    .hero-slides{
+        height: 100vh;
+            }
+        
+.each-fade {
+    display: flex;
+    width: 100%;
+  }
+  
+  .each-fade > div {
+    width: 75%;
+  }
+  
+  .each-fade > div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .each-fade p {
+    width: 25%;
+    font-size: 1.8rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #ebd8d0;
+    background-color:#b45f50;
+}
+  
+    .padding-top-50px{
+padding-top: 50px;
+    }
+    .padding-top-100{
+        padding-top: 105px;
+    }
+.outer-div{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+/* Home-about */
+.Home-about{
+   width: 50%;
+       padding-left: 17%;
+    padding-top: 130px;
+}
+.Home-about-bg{
+    /* padding: 0px 0 0px; */
+    background-color: #f3d5d0;
+    background-image: url(https://www.craftmaestros.com/pub/media/cm-athlete2/bg1.jpg);
+    /* background-image: url(https://cdna.artstation.com/p/marketplace/presentation_assets/001/402/358/large/file.jpg?1638446421); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+}
+.about{
+    padding-left: 10%;
+    padding-top: 0px;
+}
+.home-about-img{
+    width: 400px;
+}
+.heading{
+    font-size: 2rem;
+    font-weight:700;
+}
+.about-paragrapgh{
+    font-size: 1.2rem;
+  }
+/* end home-about */
+/* Category */
+
+.bg{
+    /* background-color: #f5fff5; */
+    /* background-image: url(https://uat.craftmaestros.com/magentoathelet/pub/media/cm-athlete2/bg2.png); */
+    /* background-image: url(https://cdn.shopify.com/s/files/1/2675/7366/files/mobile-left-banner_2000x.png?v=1596712631); */
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.craftmaestros.com/pub/media/cm-athlete2/bg3.jpg);
+
+}
+.category{
+background-color: #ebd8d0;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.category-div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-content: center;
+}
+.product-card-image{
+    width: cover;
+overflow: hidden;
+    height: 380px;
+}
+.product-card{
+    width: 300px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    /* transition: width 1s, height 1s; */
+
+    /* background-color: #b45f50 !important; */
+}
+/* .product-card:hover{
+    box-shadow: 10px 10px 5px #aaaaaa;
+
+} */
+
+.containerr {
+    position: relative;
+     width: 50%;
+    max-width: 300px;
+  }
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    left: -1;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 0;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .containerr:hover .overlay {
+    opacity: 1;
+  }
+/* benefits */
+.benefits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 2px solid rgb(224, 219, 219);
+}
+#vl{
+    border-left: 3px solid rgb(224, 219, 219);
+    height: 50px;
+    align-self: center;
+}
+.benefits-text{
+font-size: 1rem;
+justify-content: space-evenly;
+display: flex;
+flex-direction:row;
+text-align: center;
+align-content: center;
+align-self: center;
+}
+.benefits-headings{
+    color: #b45f50;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.benefits-icon{
+    font-size: 2rem;
+    color: #b45f50;
+}
+/* points */
+.points-bg-img{
+    /* background-image: url('https://cdn.pixabay.com/photo/2017/08/28/19/15/background-2691002_960_720.jpg'); */
+    background-image: url('https://cdn.shopify.com/s/files/1/2675/7366/files/counter-bg.png?v=1596867405');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3e402d;
+    height: 450px;
+    /* text-align: right; */
+    display: flex;
+    /* opacity: 0.6; */
+color: #ebd8d0;
+}
+.pointers{
+width: 50%;
+    /* height: 600px; */
+    /* text-align: center; */
+    padding-left: 17%;
+    padding-top: 100px;
+}
+h1{
+    margin-bottom: 0rem;
+}
+.points{
+    width: 50%;
+    /* height: 600px; */
+    /* text-align: center; */
+    padding-left: 15%;
+    padding-top: 50px;
+
+}
+.counter{
+    padding: 15px 0px   ;
+}
+.numbers{
+    font-size: 5rem;
+    /* padding: 20px 0px; */
+}
+/* ABoutus-page */
+.aboutus-heading{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 700;
+    width: 50%;
+    padding: 0px 10px;
+    align-self: center;
+
+}
+.aboutus-page{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px;
+}
+.about-h1{
+    /* font-size: 2rem; */
+    color: rgb(117, 45, 65) ;
+}
+.aboutus-img{
+    width: 50%;
+    padding: 20px 20px;
+
+}
+#vertical-line{
+    border-left: 2px solid rgb(224, 219, 219);
+    height: 600px;
+    align-self: center;
+}
+.about-hero-image{
+    /* height: 500px; */
+    border-radius: 50px 0px;
+}
+.About-bg2{
+    position:absolute;
+}
+#vertical-line-vissionmisson{
+    border-left: 2px solid rgb(224, 219, 219);
+    height: 200px;
+    align-self: center;
+}
+.vissionmisson{
+display: flex;
+flex-direction: row;
+}
+.vission-img{
+    width: 600px;
+}
+@media screen and (max-width:1024px){
+    .outer-div{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .hero-slides{
+height: 100%;
+    }
+    .each-fade p {
+        width: 35%;
+        font-size: 1.7rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        color: #ebd8d0;
+        background-color:#b45f50;
+    }
+    .Home-about{
+        padding-left: 8%;
+    }
+    .about
+    {
+        padding-left: 5%;
+    }
+    .about-hero-image {
+        height: 450px;
+        align-self: center;
+        }
+        .vission-img{
+            width: 400px;
+        }
+}
+@media screen and (max-width:768px){
+    .outer-div{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hero-slides{
+        height: 40vh;
+            }
+            .each-fade p {
+                width: 40%;
+                font-size: 1.4rem;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                color: #ebd8d0;
+                background-color:#b45f50;
+            }
+            .benefits-text{
+                font-size: 0.8rem;
+                color: #b45f50;
+
+            }
+            .benefits-icon{
+                font-size: 1.8rem;
+                color: #b45f50;
+            }
+            .category-div{
+            
+                flex-wrap: wrap;
+                /* justify-content: space-between; */
+                justify-content: center;
+            }
+            .product-card-image{
+                width: cover;
+                            height: 380px;
+            }
+            .product-card{
+                width: 350px;
+            }
+            .numbers{
+                font-size: 2rem;
+                /* padding: 20px 0px; */
+            }
+            .pointers{
+                width: 50%;
+                    /* height: 600px; */
+                    /* text-align: center; */
+                    padding-left: 15%;
+                    padding-top: 70px;
+                }
+                h1{
+                    margin-bottom: 0rem;
+                }
+                .points{
+                    width: 50%;
+                    /* height: 600px; */
+                    /* text-align: center; */
+                    padding-left: 15%;
+                    padding-top: 70px;
+                
+                }
+                .points-bg-img{
+                    /* background-image: url('https://cdn.pixabay.com/photo/2017/08/28/19/15/background-2691002_960_720.jpg'); */
+                    background-image: url('https://cdn.shopify.com/s/files/1/2675/7366/files/counter-bg.png?v=1596867405');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: #3e402d;
+                    height: 400px;
+                    /* text-align: right; */
+                    display: flex;
+                    /* opacity: 0.6; */
+                color: #ebd8d0;
+                }
+                .Home-about{
+                    width: 60%;
+                        padding-left: 5%;
+                     padding-top: 70px;
+                 }
+                 .about{
+                    padding-left: 2%;
+                    padding-top: 0px;
+                }
+                .home-about-img{
+                    width: 250px;
+                }
+                .about-paragrapgh{
+                    font-size: 1rem;
+                }
+                .Home-about-bg{
+                height: 300px;
+                }
+                .aboutus-page{
+                    flex-direction: column;
+                }
+                .aboutus-img{
+                    width: 100%;
+                    padding: 10px 10px;
+                    text-align: center;
+                
+                }
+                .aboutus-heading{
+                       width: 100%;
+                }
+                #vertical-line{
+                    display: none;
+                }
+                .about-hero-image {
+                    height: 370px;
+                    }
+                  
+                    .vission-img{
+                        width: 320px;
+                    }
+                    .vissionmisson{
+                        padding: 10px 0px;
+                    }
+}
+
+
+@media screen and (max-width:425px){
+    .benefits-text{
+        font-size: 0.7rem;
+        flex-direction:column;
+
+    }
+    
+    .each-fade p {
+        width: 45%;
+        font-size: 0.8rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        color: #ebd8d0;
+        background-color:#b45f50;
+    }
+    .benefits-icon{
+        font-size: 1.3rem;
+        color: #b45f50;
+    }
+    .benefits-headings{
+        color: #b45f50;
+        padding-top: 3px;
+        padding-left: 0px;
+    }
+    .product-card-image{
+        width: cover;
+    
+        /* height: 200px; */
+    }
+    .product-card{
+        width: 370px;
+    }
+    .points-bg-img{
+        /* background-image: url('https://cdn.pixabay.com/photo/2017/08/28/19/15/background-2691002_960_720.jpg'); */
+        background-image: url('https://cdn.shopify.com/s/files/1/2675/7366/files/counter-bg.png?v=1596867405');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #3e402d;
+        height: 400px;
+        /* text-align: right; */
+        display: flex;
+        /* opacity: 0.6; */
+    color: #ebd8d0;
+    flex-direction: column;
+    }
+    .numbers{
+        font-size: 1.8rem;
+        /* padding: 20px 0px; */
+    }
+    .pointers{
+        width: 100%;
+            /* height: 600px; */
+            /* text-align: center; */
+            padding-left: 0%;
+            padding: 20px;
+            padding-top: 50px;
+        }
+        h1{
+            margin-bottom: 0rem;
+        }
+        .counter{
+            padding-top: 0px;
+        }
+        .points{
+            width: 100%;
+            /* height: 600px; */
+            /* text-align: center; */
+            padding-left: 0%;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+        justify-content:space-around;
+        }
+        .Home-about-bg{
+            height: 460px;
+            display: flex;
+            flex-direction: column;
+            }
+            .Home-about{
+                width: 100%;
+                padding: 40px 10px 10px 10px;
+           }
+            .home-about-img{
+                width: 200px;
+            }
+            .about{
+                text-align: center;
+            }
+            .aboutus-page{
+                flex-direction: column;
+            }
+            .aboutus-img{
+                width: 100%;
+                padding: 0px 10px;
+            
+            }
+            .aboutus-heading{
+                   width: 100%;
+            }
+            .about-hero-image {
+            height: 370px;
+            }
+            #vertical-line{
+                display: none;
+            }
+            .vission-img{
+                width: 380px;
+            }
+            .vissionmisson{
+            flex-direction: column;
+            }
+            #vertical-line-vissionmisson{
+                display: none;
+            }
+            .padding-top-20px{
+                padding-top: 20px;
+            }
+            #hr-line{
+                border-bottom: 2px solid rgb(224, 219, 219);
+                width: 50%;
+                        }
+}
+@media screen and (max-width:375px){
+
+
+.product-card-image{
+    width: cover;
+
+    /* height: 200px; */
+}
+.product-card{
+    width: 330px;
+}
+.points-bg-img{
+height: 420px;
+}
+.home-about-img{
+    width: 150px;
+}
+.about-hero-image {
+    height: 320px;
+    }
+    .vission-img{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width:320px){
+
+.hero-slides {
+    height: 100%;
+}
+.each-fade p {
+    width: 45%;
+    font-size: 0.8rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #ebd8d0;
+    background-color:#b45f50;
+}
+.product-card-image{
+    width: cover;
+
+    /* height: 200px; */
+}
+.product-card{
+    width: 270px;
+}
+.benefits-text{
+    font-size: 0.6rem;
+}
+.about-hero-image {
+    height: 280px;
+    }
+    .vission-img{
+        width: 280px;
+    }
+}
