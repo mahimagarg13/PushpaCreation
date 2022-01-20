@@ -32,7 +32,7 @@
 }
 .connected{
     height: 200px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-bottom: 20px;
     justify-content: center;
 }
@@ -281,7 +281,7 @@ h5{
     flex-direction: row;
 }
 .background-black{
-    background-image: url('https://www.craftmaestros.com/media/athlete2/default/CM-Footer2_1.png');
+    background-image: url('../Pages/Home/Images/footer-bg.png');
         height: auto;
         /* background-color: rgb(117, 45, 65); */
  }

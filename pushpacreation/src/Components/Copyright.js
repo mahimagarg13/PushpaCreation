@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import {FaFacebookF} from "react-icons/fa";
 import {IoLogoWhatsapp} from "react-icons/io";
 import {FiInstagram} from "react-icons/fi";

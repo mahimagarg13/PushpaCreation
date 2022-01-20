@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect} from 'react';
 import Benifits from '../Pages/Home/Benifits'
 import Hero from "../Pages/Home/Hero"
 import Homeabout from '../Pages/Home/Homeabout'

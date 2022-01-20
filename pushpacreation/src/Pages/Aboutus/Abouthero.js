@@ -3,7 +3,7 @@ import "../Style.css";
 import aboutimg from "../Home/Images/About1.jpg"
 export default function Abouthero() {
     return (
-        <div className='aboutus-page container'>
+        <div className='aboutus-page container' >
             <div className='aboutus-heading'>
 <h1 classname="about-h1" style={{fontFamily: "NYTMagSerifHeadlineWEB-Bold", fontWeight:"700" ,textTransform: "none",    lineHeight: "40px" ,fontSize:"40px", color:"rgb(117, 45, 65)"}}>
     About US

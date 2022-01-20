@@ -7,6 +7,7 @@ import Copyright from './Components/Copyright';
 import Error from './Pages/Error';
 import Aboutus from './Components/Aboutus';
 import Products from './Components/Products';
+import Contactus from './Components/Contactus';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
  <Route path="/" exact element={<Home />}></Route>
  <Route  path="*" element={<Error />}></Route>
  <Route  path="/aboutus" element={<Aboutus />}></Route>
- <Route  path="/Products" element={<Products />}></Route>
+ <Route  path="/products" element={<Products />}></Route>
+ <Route  path="/contactus" element={<Contactus />}></Route>
 
  </Routes>
  <Footer />

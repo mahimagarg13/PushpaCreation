@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect , useState } from 'react';
 import "../Components/Nav.css";
 import { Link } from 'react-router-dom';
 import { TiThMenu } from "react-icons/ti";
