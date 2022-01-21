@@ -1,16 +1,14 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import jwellry from "./Images/WhatsApp Image 2021-11-26 at 10.18.03 PM (4).jpeg"
-// import potery from "./Images/IMG_5677 (1).jpg"
-// import doormat from "./Images/WhatsApp Image 2021-09-17 at 6.36.40 PM.jpeg"
-// import begs from "./Images/WhatsApp Image 2021-09-17 at 6.36.37 PM.jpeg"
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Fade from 'react-reveal/Fade';
 
+import "../Flipcard.css";
 function Category() {
     const productData = [
         {
-            name: 'jwellery',
+            name: 'Jwellery',
             imagesrc: '/Products/image-category-jwellery.jpeg',
             redirectTO: '/jwellery'
         },
@@ -42,7 +40,7 @@ function Category() {
         {
             name: 'Wood Decoration Products',
             imagesrc: '/Products/image-category-wood-decoration.jpg',
-            redirectTO: '/wood-decoration'
+            redirectTO: '/wooddecoration'
         },
         // {
         //     name: 'jwellery',
@@ -65,47 +63,22 @@ function Category() {
         <div className="category-div">
             {productData.map((product) => (
                 <Link to={product.redirectTO || ""}>
-                    <div  style={{ paddingTop:"20px" }}>
-                        <Card  className="product-card">
-                            <Card.Img variant="top" src={product.imagesrc}  className="product-card-image"/>
-                            <Card.Body>
-                                <Card.Title  style={{ color: '#b45f50', textAlign: "center"}}>{product.name}</Card.Title>
-                                <Card.Text>
+                    <Fade bottom>
+                    <div className="flip-card" style={{ paddingTop:"20px" }}>
+                        <Card  className="flip-card-inner">
+                            <Card.Img variant="top" src={product.imagesrc}  className=" flip-card-front"/>
+                            <Card.Body className="flip-card-back">
+                                <Card.Title className="a" style={{textAlign: "center", fontSize:"1.8rem"}}>{product.name}</Card.Title>
+                                <Card.Text style={{textAlign: "center", fontSize:"1.6rem"}}>
+                                    Click For Know More Products 
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </div>
+                    </Fade>
                 </Link>
             ))}
-
-            {/* <div><Card style={{ width: '280px' }}>
-                <Card.Img variant="top" src={potery} />
-                <Card.Body>
-                    <Card.Title style={{color:'#b45f50', textAlign:"center"}}>Potery</Card.Title>
-                    <Card.Text>
-                      
-                    </Card.Text>
-                </Card.Body>
-            </Card></div> */}
-            {/* <div><Card style={{ width: '280px' }}>
-                <Card.Img variant="top" src={doormat} />
-                <Card.Body>
-                    <Card.Title style={{color:'#b45f50', textAlign:"center"}}>Doormat</Card.Title>
-                    <Card.Text>
-                       
-                    </Card.Text>
-                </Card.Body>
-            </Card></div> */}
-            {/* <div><Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={begs} />
-                <Card.Body>
-                    <Card.Title style={{color:'#b45f50', textAlign:"center"}}>Side Bags</Card.Title>
-                    <Card.Text>
-                       
-                    </Card.Text>
-                </Card.Body>
-            </Card></div> */}
-            <div></div>
+         <div></div>
         </div>
     );
 };

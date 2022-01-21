@@ -2,10 +2,14 @@ import React from 'react'
 import { FaShippingFast } from "react-icons/fa"
 import { BsPatchCheckFill } from "react-icons/bs"
 import { BsChatSquareTextFill } from "react-icons/bs"
+import Fade from 'react-reveal/Fade';
+
 export default function Benifits() {
     return (
+        <Fade bottom duration="1500">
         <div className='benefits'>
             <div className='benefits-text'>
+
                 <div className='benefits-icon'><FaShippingFast/></div><div className='benefits-headings'> World Wide Shipping</div>
                 </div>
                 <div id="vl"></div>
@@ -18,5 +22,7 @@ export default function Benifits() {
                     </div>
                                 </div>
                 </div>
+                </Fade>
+
                 )
 }

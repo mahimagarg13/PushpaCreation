@@ -8,6 +8,13 @@ import Error from './Pages/Error';
 import Aboutus from './Components/Aboutus';
 import Products from './Components/Products';
 import Contactus from './Components/Contactus';
+import Jwellery from './Pages/Products/Jwellery';
+import Carpet from './Pages/Products/Carpet';
+import Doormat from './Pages/Products/Doormat';
+import Wooddecoration from './Pages/Products/Wooddecoration';
+import Clock from './Pages/Products/Clock';
+import Bags from './Pages/Products/Bags';
+import Potery from './Pages/Products/Potery';
 
 function App() {
   return (
@@ -20,6 +27,13 @@ function App() {
  <Route  path="/aboutus" element={<Aboutus />}></Route>
  <Route  path="/products" element={<Products />}></Route>
  <Route  path="/contactus" element={<Contactus />}></Route>
+ <Route  path="/Jwellery" element={<Jwellery />}></Route>
+ <Route  path="/carpet" element={<Carpet />}></Route>
+ <Route  path="/doormat" element={<Doormat />}></Route>
+ <Route  path="/wooddecoration" element={<Wooddecoration />}></Route>
+ <Route  path="/clock" element={<Clock />}></Route>
+ <Route  path="/bags" element={<Bags />}></Route>
+ <Route  path="/potery" element={<Potery />}></Route>
 
  </Routes>
  <Footer />

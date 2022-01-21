@@ -55,7 +55,7 @@ align-self: center;
 .newslettet-input{
     border: none;
     border-bottom: 3px solid rgb(80, 15, 34);
-    width: 350px;
+    width: 300px;
     outline:none;
 }
 .newsletter-button{
@@ -66,7 +66,7 @@ align-self: center;
     background-color:  rgb(110, 34, 57) !important;
 }
 h6{
-    color: rgb(167, 162, 162);
+    color: black;
 }
 .input-div{
     width: 40%;
@@ -74,10 +74,9 @@ h6{
 
 }
  .background-black{
-    background-image: url('https://www.craftmaestros.com/media/athlete2/default/CM-Footer2_1.png');
+    background-image: url('../Pages/Home/Images/footer.jpg');
         height: 450px;
-        /* background-color: rgb(117, 45, 65); */
-        box-shadow:  10px 0px 10px 2px rgba(0, 0, 0, 0.2);
+      /* background-repeat: no-repeat; */
 
  }
 #vl-footer{
@@ -121,13 +120,13 @@ h4
 width: 13%;
 padding-top: 20px;
 text-decoration: none;
-color: whitesmoke;
+/* color: whitesmoke; */
 margin-left: 50px;
 }
 .three{
 width: 35%;
 padding-top: 20px;
-color: whitesmoke;
+/* color: whitesmoke; */
 padding-left: 40px;
 }
 .hover{
@@ -140,7 +139,7 @@ padding-left: 40px;
     transition-duration: 0.3s;
     transition-property: transform;
     text-decoration: none;
-    color: #dbdbd8;
+    color: black;
 }
 .hover:hover{
     /* animation: move-vertical-out .25s; */
@@ -149,7 +148,7 @@ padding-left: 40px;
 }
 .lnk a{
     text-decoration: none;
-    color: rgb(192, 189, 189)!important;
+    color: black!important;
 }
 @media screen and (max-width:1024px){
     .msg-icon{
@@ -222,19 +221,19 @@ padding-left: 40px;
         width: 100%;
         padding-top: 20px;
         text-decoration: none;
-        color: whitesmoke;
+        /* color: whitesmoke; */
         margin-left: 0px;
         }
         .three{
         width: 100%;
         padding-top: 20px;
-        color: whitesmoke;
+        /* color: whitesmoke; */
         padding-left: 10px;
         padding-right: 5px;
         padding-bottom: 20px;
         }.lnk a{
             text-decoration: none;
-            color: rgb(155, 150, 150)!important;
+            color:black!important;
         }
         .newslettet-input{
             border: none;
@@ -246,7 +245,7 @@ padding-left: 40px;
             padding-left: 5px;
         }
         h6{
-            color: gray;
+            color: black;
             font-size: 0.8rem;
         }
         .msg-icon{
@@ -281,7 +280,7 @@ h5{
     flex-direction: row;
 }
 .background-black{
-    background-image: url('../Pages/Home/Images/footer-bg.png');
+    background-image: url('../Pages/Home/Images/footer.jpg');
         height: auto;
         /* background-color: rgb(117, 45, 65); */
  }
@@ -294,6 +293,8 @@ h5{
         flex-direction: column;
         align-self: left;
         text-align: left;
+        background-color: #d3ab9e;
+        padding: 20px 0px;
 }
     .flex-footer {
         flex-direction: column;
@@ -314,6 +315,9 @@ form{
 }
 .newslettet-input{
     width: 270px;
+}
+.two{
+    padding-top: 0px;
 }
 }
 @media screen and (max-width:320px)

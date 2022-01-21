@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 // import Message from "./Icons/email.png"
+import Fade from 'react-reveal/Fade';
 
 import { MdOutlineMail } from "react-icons/md";
 // import flogo from "../Navbar/logo.png";
@@ -22,6 +23,8 @@ function Footer() {
 		[]
 	);
     return (
+        <Fade bottom duration="1500">
+
         <div className="background-black">
 
 <div className="flex-footer container connected">
@@ -36,7 +39,7 @@ function Footer() {
         </div>
         </div>
     <div className="input-div">
-    <form action="/action_page.php">
+    <form>
   <input type="email" id="email" name="email" placeholder="Your email address " className="newslettet-input"/>
   <input type="submit"  value="Subscribe" className="newsletter-button" />
 </form>
@@ -52,7 +55,7 @@ function Footer() {
                         <p className="mar lnk"> </p>
                     </div>
                     <div className="two">
-                        <h4>Navigation</h4>
+                        <h4 style={{color:"black"}}>Navigation</h4>
                         <p id="vl-footer"></p>
                         <div className="lnk">
                             {/* <FaAngleRight className="text-golden" /> */}
@@ -77,7 +80,7 @@ function Footer() {
                         {/* <Link to="/registration">Registration</Link><br /> */}
                     {/* </div> */}
                     <div className="three">
-                        <h4>Important Links</h4>
+                        <h4 style={{color:"black"}}>Important Links</h4>
                         <p id="vl-footer"></p>
                         <div className="lnk">
                             {/* <FaAngleRight className="text-golden" /> */}
@@ -89,6 +92,7 @@ function Footer() {
                         </div></div>
                 </div>
         </div>
+        </Fade>
     );
 }
 export default Footer;
