@@ -14,31 +14,37 @@ export default function Jwellery() {
     );
     const productJwellery = [
         {
+            id: '1',
             name: 'Ear Rings',
             imagesrc: '/Products/image-EarRings1.jpeg',
             // redirectTO: 'https://wa.me/+91-8010810469'
         },
         {
+            id: '2',
             name: 'Nacklace',
             imagesrc: '/Products/image-Nacklace2.jpeg',
             // redirectTO: '/doormat'
         },
         {
+            id: '3',
             name: 'Ear Rings',
             imagesrc: '/Products/image-Rings1.jpeg',
             // redirectTO: '/jwellery'
         },
         {
+            id: '4',
             name: 'Rings',
             imagesrc: '/Products/image-Rings2.jpeg',
             // redirectTO: '/jwellery'
         },
         {
+            id: '5',
             name: 'Nacklace',
             imagesrc: '/Products/image-Nacklaceset1.png',
             // redirectTO: '/doormat'
         },
         {
+            id: '6',
             name: 'Bracelate',
             imagesrc: '/Products/image-Bracelate1.png',
             // redirectTO: '/'
@@ -52,7 +58,7 @@ export default function Jwellery() {
             <div className="category-div">
 
                 {productJwellery.map((product) => (
-                    <Link to={product.redirectTO || ""}>
+                    <Link key={product.id} to={product.redirectTO || ""}>
                         <Fade bottom>
                             <div className="flip-card" style={{ paddingTop: "20px" }}>
                                 <Card className="flip-card-inner">

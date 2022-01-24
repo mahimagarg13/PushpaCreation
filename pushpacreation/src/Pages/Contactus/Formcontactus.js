@@ -1,17 +1,14 @@
 import React, { useState } from 'react';
-// import Form from 'react-bootstrap/Form';
 import axios from "axios";
 import Button from 'react-bootstrap/Button';
 import Fade from 'react-reveal/Fade';
 import "../Style.css"
-
 export default function Formcontactus() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [country, setCountry] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
 
   const onSubmitForm = async (e) => {
     // e.preventDefault();
@@ -88,7 +85,6 @@ export default function Formcontactus() {
     </div>
     <div className='gmap'>
       <iframe title="Clink Girls Hostel" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.922666781825!2d77.35420001401265!3d23.282259512416992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c674811726391%3A0xab330187d1efe937!2sClink%20Girls%20%26%20Working%20Women%20Hostel!5e0!3m2!1sen!2sin!4v1642069768165!5m2!1sen!2sin" width="100%" height="100%" loading="lazy"></iframe>
-
     </div>
   </div>
     ;

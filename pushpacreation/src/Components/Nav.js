@@ -34,7 +34,7 @@ function Nav() {
           <Link to="/contactus/#" onClick={navBarShow} >Contact Us</Link>
           <a href=" https://wa.me/8010810469" onClick={navBarShow} className="btnn" rel="noopener noreferrer" target="_blank">Enquiry Now</a>
         </div>
-        <button onClick={() => setShowLinks(!showLinks)} className="margin-right" style={{backgroundColor:"#ebd8d0"}}>
+        <button onClick={() => setShowLinks(!showLinks)} className="margin-right" style={{backgroundColor:"transparent"}}>
           <TiThMenu style={{color:"black", fontSize: "22px"}} />
         </button>
       </div>

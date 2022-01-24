@@ -1,14 +1,10 @@
 .footer{
     display: flex;
     flex-direction: row;
-    /* background-color:#b45f50; */
-    /* background-image: url('https://www.craftmaestros.com/media/athlete2/default/CM-Footer2_1.png'); */
-    color: rgb(224, 217, 217);
+        color: rgb(224, 217, 217);
    height: auto;
     font-size: 16px;
     font-weight: 400;
-    /* height: 00px; */
-    /* background-color: rgb(117, 45, 65); */
     padding-bottom: 20px;
 }
 .aa{
@@ -32,7 +28,6 @@
 }
 .connected{
     height: 200px;
-    /* margin-top: 10px; */
     margin-bottom: 20px;
     justify-content: center;
 }
@@ -71,14 +66,11 @@ h6{
 .input-div{
     width: 40%;
     align-self: center;
-
 }
  .background-black{
     background-image: url('../Pages/Home/Images/footer.jpg');
         height: 450px;
-      /* background-repeat: no-repeat; */
-
- }
+     }
 #vl-footer{
     width: 70px;
     border-top: 2px solid gray;
@@ -110,7 +102,6 @@ align-self: center;
 padding-left: 30px;
 padding-right: 10px;
 padding-top: 10px;
-
 }
 h4
 {
@@ -120,13 +111,11 @@ h4
 width: 13%;
 padding-top: 20px;
 text-decoration: none;
-/* color: whitesmoke; */
 margin-left: 50px;
 }
 .three{
 width: 35%;
 padding-top: 20px;
-/* color: whitesmoke; */
 padding-left: 40px;
 }
 .hover{
@@ -142,9 +131,7 @@ padding-left: 40px;
     color: black;
 }
 .hover:hover{
-    /* animation: move-vertical-out .25s; */
     transform: scale(1.2);
-
 }
 .lnk a{
     text-decoration: none;
@@ -181,17 +168,14 @@ padding-left: 40px;
         color: white;
         background-color:  rgb(110, 34, 57) !important;
     }
-    
-    form{
+        form{
         text-align: -webkit-center;
     }
     .input-div{
         width: 50%;
         align-self: center;
-    
+        }
     }
-    
-}
 @media screen and (max-width:768px)
 {
     .footer{
@@ -221,13 +205,11 @@ padding-left: 40px;
         width: 100%;
         padding-top: 20px;
         text-decoration: none;
-        /* color: whitesmoke; */
         margin-left: 0px;
         }
         .three{
         width: 100%;
         padding-top: 20px;
-        /* color: whitesmoke; */
         padding-left: 10px;
         padding-right: 5px;
         padding-bottom: 20px;
@@ -282,7 +264,6 @@ h5{
 .background-black{
     background-image: url('../Pages/Home/Images/footer.jpg');
         height: auto;
-        /* background-color: rgb(117, 45, 65); */
  }
 }
 @media screen and (max-width:425px)
@@ -311,7 +292,6 @@ h5{
 form{
     display: flex;
     width: 100%;
-/* justify-content: center; */
 }
 .newslettet-input{
     width: 270px;

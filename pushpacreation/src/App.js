@@ -18,27 +18,25 @@ import Potery from './Pages/Products/Potery';
 
 function App() {
   return (
-    
     <BrowserRouter>
-<Nav />
-<Routes>
- <Route path="/" exact element={<Home />}></Route>
- <Route  path="*" element={<Error />}></Route>
- <Route  path="/aboutus" element={<Aboutus />}></Route>
- <Route  path="/products" element={<Products />}></Route>
- <Route  path="/contactus" element={<Contactus />}></Route>
- <Route  path="/Jwellery" element={<Jwellery />}></Route>
- <Route  path="/carpet" element={<Carpet />}></Route>
- <Route  path="/doormat" element={<Doormat />}></Route>
- <Route  path="/wooddecoration" element={<Wooddecoration />}></Route>
- <Route  path="/clock" element={<Clock />}></Route>
- <Route  path="/bags" element={<Bags />}></Route>
- <Route  path="/potery" element={<Potery />}></Route>
-
- </Routes>
- <Footer />
- <Copyright />
-</BrowserRouter>
+      <Nav />
+      <Routes>
+        <Route path="/" exact element={<Home />}></Route>
+        <Route path="*" element={<Error />}></Route>
+        <Route path="/aboutus" element={<Aboutus />}></Route>
+        <Route path="/products" element={<Products />}></Route>
+        <Route path="/contactus" element={<Contactus />}></Route>
+        <Route path="/Jwellery" element={<Jwellery />}></Route>
+        <Route path="/carpet" element={<Carpet />}></Route>
+        <Route path="/doormat" element={<Doormat />}></Route>
+        <Route path="/wooddecoration" element={<Wooddecoration />}></Route>
+        <Route path="/clock" element={<Clock />}></Route>
+        <Route path="/bags" element={<Bags />}></Route>
+        <Route path="/potery" element={<Potery />}></Route>
+      </Routes>
+      <Footer />
+      <Copyright />
+    </BrowserRouter>
   );
 }
 

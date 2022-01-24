@@ -6,23 +6,21 @@ import Fade from 'react-reveal/Fade';
 
 export default function Benifits() {
     return (
-        <Fade bottom duration="1500">
-        <div className='benefits'>
-            <div className='benefits-text'>
-
-                <div className='benefits-icon'><FaShippingFast/></div><div className='benefits-headings'> World Wide Shipping</div>
+        <Fade bottom>
+            <div className='benefits'>
+                <div className='benefits-text'>
+                    <div className='benefits-icon'><FaShippingFast /></div><div className='benefits-headings'> World Wide Shipping</div>
                 </div>
                 <div id="vl"></div>
                 <div className='benefits-text'>
-                    <div className='benefits-icon'><BsChatSquareTextFill/></div><div className='benefits-headings'> 24*7 Customer Support</div>
-                    </div>
-                    <div id="vl"></div>
-
-                    <div className='benefits-text'><div className='benefits-icon'><BsPatchCheckFill  /></div><div className='benefits-headings'> 100% Guarantee
-                    </div>
-                                </div>
+                    <div className='benefits-icon'><BsChatSquareTextFill /></div><div className='benefits-headings'> 24*7 Customer Support</div>
                 </div>
-                </Fade>
+                <div id="vl"></div>
+                <div className='benefits-text'><div className='benefits-icon'><BsPatchCheckFill /></div><div className='benefits-headings'> 100% Guarantee
+                </div>
+                </div>
+            </div>
+        </Fade>
 
-                )
+    )
 }
